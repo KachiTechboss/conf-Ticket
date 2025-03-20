@@ -1,0 +1,315 @@
+@media (max-width: 1024px) {
+    .container {
+        margin-top: 6rem;
+        width: 80%; /* Slightly larger width for tablets */
+    }
+
+    .heading-container h1 {
+        font-size: 24px;
+        width: 45%;
+        margin-inline: auto;  
+    }
+
+    .form-container {
+        padding: 20px;
+    }
+
+    input {
+        padding: 12px;
+        font-size: 16px;
+    }
+
+    button {
+        padding: 12px;
+        font-size: 16px;
+    } 
+    .ticket-container{
+        margin-top: 6rem;
+    }
+    
+    .ticket {
+        width: 80%; /* Adjust ticket width */
+        height: auto;
+        padding: 25px;
+
+    }
+    .ticket-header{
+        margin-left: 60px;
+
+    }
+
+    .ticket-body {
+        gap: 15px;
+        margin-left: 60px;
+    }
+
+    .ticket-body img {
+        width: 65px;
+        height: 65px;
+    }
+    .ticket-number {
+        writing-mode: vertical-rl; /* Makes the text vertical */
+        text-orientation: sideways; /* Ensures the text is upright */
+        font-size: 18px;
+        color: hsl(252, 6%, 83%);
+        position: absolute; /* Position it relative to the ticket */
+        right: 300px; /* Adjust the position to align with the dotted line */
+        top: 53%; /* Center it vertically */
+        transform: translateY(-50%); /* Adjust for perfect centering */
+    }
+}
+@media (max-width: 768px){
+    body {
+        background: 
+            url('assets/images/pattern-squiggly-line-top.svg') top right no-repeat,
+            url('assets/images/pattern-circle.svg') center  no-repeat,
+            url('assets/images/pattern-squiggly-line-bottom-mobile-tablet.svg') calc(20%) calc(650%) no-repeat,
+            url('assets/images/pattern-lines.svg') center no-repeat,
+            url('assets/images/background-mobile.png') center / cover no-repeat;
+        height: 100vh;
+        color: hsl(0, 0%, 100%);
+        text-align: center;
+        font-family: "Inconsolata", monospace;
+    }
+    .container {
+        margin-top: -6rem;
+        width: 80%; /* Slightly larger width for tablets */
+    }
+        .ticket-number {
+            writing-mode: vertical-rl; /* Makes the text vertical */
+            text-orientation: sideways; /* Ensures the text is upright */
+            font-size: 18px;
+            color: hsl(252, 6%, 83%);
+            position: absolute; /* Position it relative to the ticket */
+            right: 200px; /* Adjust the position to align with the dotted line */
+            top: 50%; /* Center it vertically */
+            transform: translateY(-50%); /* Adjust for perfect centering */
+        }
+        .ticket-header{
+            margin-left: 20px;
+    
+        }
+    
+        .ticket-body {
+            gap: 15px;
+            margin-left: 20px;
+            margin-top: -5px;
+        }
+        .ticket{
+            margin-top: 5rem;
+        }
+    }
+        
+    
+
+
+
+
+@media (max-width: 425px){
+    body {
+        background: 
+            url('assets/images/pattern-squiggly-line-top.svg') top right no-repeat,
+            url('assets/images/pattern-circle.svg') center  no-repeat,
+            url('assets/images/pattern-squiggly-line-bottom-mobile-tablet.svg') calc(20%) calc(650%) no-repeat,
+            url('assets/images/pattern-lines.svg') center no-repeat,
+            url('assets/images/background-mobile.png') center / cover no-repeat;
+        height: 100vh;
+        color: hsl(0, 0%, 100%);
+        text-align: center;
+        font-family: "Inconsolata", monospace;
+    }
+    .container {
+        margin-top: 1rem;
+        width: 100%; /* Slightly larger width for tablets */
+    }
+
+    .heading-container h1 {
+        font-size: 24px;
+        width: 80%;
+        margin-top: 1.5rem;
+        margin-inline: auto;  
+    }
+    .heading-container p{
+        width: 80%;
+        margin-inline: auto;
+
+    }
+    #upload-text{
+        font-size: 11px;
+        
+    }
+
+    .form-container {
+        padding: 20px;
+    }
+
+    input {
+        padding: 12px;
+        font-size: 16px;
+        border: 1px solid hsl(0, 0%, 100%);
+    }
+
+    button {
+        padding: 12px;
+        font-size: 16px;
+        margin-top: 5px;
+    } 
+    .ticket-container{
+        margin-top: -1rem;
+    }
+    .h2-text{
+        width: 85%;
+    }
+    .p-text{
+        color:  hsl(245, 15%, 58%);
+        width: 85%;
+    }
+    
+    .ticket {
+        width: 100%; /* Adjust ticket width */
+        height: auto;
+        padding: 30px 15px;
+        margin-top: 4rem;
+        margin-bottom: 12rem;
+
+    }
+
+    .ticket-header{
+        margin-left: 10px;
+
+    }
+
+    .ticket-body {
+        gap: 15px;
+        margin-left: 10px;
+        margin-top: -5px;
+    }
+    .ticket-header h2 {
+        font-size: 20px;
+        line-height: 1.5;
+       
+    }
+    #ticketFullName{
+        font-size: 20px;
+        line-height: 1.5;
+    
+    }
+    #ticketGithub{
+        color: hsl(245, 15%, 58%) ;
+        font-size: 14px;
+    }
+    
+    .ticket-header p {
+        font-size: 14px;
+        color:  hsl(245, 15%, 58%);
+        
+    }
+
+
+    .ticket-body img {
+        width: 50px;
+        height: 50px;
+    }
+    .ticket-number {
+        writing-mode: vertical-rl; /* Makes the text vertical */
+        text-orientation: sideways; /* Ensures the text is upright */
+        font-size: 18px;
+        color: hsl(252, 6%, 83%);
+        position: absolute; /* Position it relative to the ticket */
+        right: 55px; /* Adjust the position to align with the dotted line */
+        top: 70%; /* Center it vertically */
+        transform: translateY(-50%); /* Adjust for perfect centering */
+    }
+}
+@media (max-width: 375px){
+    body {
+        background: 
+            url('assets/images/pattern-squiggly-line-top.svg') top right no-repeat,
+            url('assets/images/pattern-circle.svg') center  no-repeat,
+            url('assets/images/pattern-squiggly-line-bottom-mobile-tablet.svg') calc(20%) calc(950%) no-repeat,
+            url('assets/images/pattern-lines.svg') center no-repeat,
+            url('assets/images/background-mobile.png') center / cover no-repeat;
+        height: 100vh;
+        color: hsl(0, 0%, 100%);
+        text-align: center;
+        font-family: "Inconsolata", monospace;
+    }
+    .container {
+        margin-top: -1rem;
+        width: 100%; /* Slightly larger width for tablets */
+        height: 100%;
+    }
+    .heading-container h1 {
+        font-size: 24px;
+        width: 100%;
+        margin-top: 1.5rem;
+        margin-inline: auto;  
+    }
+    
+    .ticket-number {
+        writing-mode: vertical-rl; /* Makes the text vertical */
+        text-orientation: sideways; /* Ensures the text is upright */
+        font-size: 18px;
+        color: hsl(252, 6%, 83%);
+        position: absolute; /* Position it relative to the ticket */
+        right: 50px; /* Adjust the position to align with the dotted line */
+        top: 70%; /* Center it vertically */
+        transform: translateY(-50%); /* Adjust for perfect centering */
+    }
+}
+@media (max-width: 320px){
+    .container {
+        margin-top: -1rem;
+        width: 100%; /* Slightly larger width for tablets */
+        height: 100%;
+    }
+    .heading-container h1 {
+        font-size: 24px;
+        width: 100%;
+        margin-top: -1rem;
+        margin-inline: auto;  
+    }
+    input{
+        margin-top: 0.3rem;
+    }
+
+    
+    .ticket-number {
+        writing-mode: vertical-rl; /* Makes the text vertical */
+        text-orientation: sideways; /* Ensures the text is upright */
+        font-size: 14px;
+        color: hsl(252, 6%, 83%);
+        position: absolute; /* Position it relative to the ticket */
+        right: 36px; /* Adjust the position to align with the dotted line */
+        top: 68%; /* Center it vertically */
+        transform: translateY(-50%); /* Adjust for perfect centering */
+    }
+    .ticket-body img {
+        width: 40px;
+        height: 40px;
+    }
+    #ticketFullName{
+        font-size: 15px;
+        line-height: 1.5;
+    
+    }
+    #ticketGithub{
+        color:  hsl(245, 15%, 58%) ;
+        font-size: 10px;
+    }
+    
+    .ticket-header p {
+        font-size: 10px;
+        color: hsl(245, 15%, 58%);
+        
+    }
+    .ticket-header h2 {
+        font-size: 15px;
+       
+    }
+}
+
+
+
+
+

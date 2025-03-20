@@ -1,0 +1,247 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    background: 
+        url('assets/images/pattern-squiggly-line-top.svg') top right no-repeat,
+        url('assets/images/pattern-circle.svg') center  no-repeat,
+        url('assets/images/pattern-squiggly-line-bottom-desktop.svg') bottom left no-repeat,
+        url('assets/images/pattern-lines.svg') center no-repeat,
+        url('assets/images/background-desktop.png') center / cover no-repeat;
+    height: 100vh;
+    color: hsl(0, 0%, 100%);
+    text-align: center;
+    font-family: "Inconsolata", monospace;
+}
+
+.container {
+    width: 40%;
+    margin: auto;
+    padding: 20px;
+}
+.heading-container h1{
+    width: 80%;
+    margin-inline: auto;
+    line-height: 1.5;
+}
+.heading-container p{
+  color:  hsl(252, 6%, 83%);  
+}
+.form-container {
+    padding: 20px;
+    border-radius: 10px;
+    text-align: left;
+}
+.icon-upload{
+    border: 1px solid  hsl(252, 6%, 83%);
+    padding: 5px;
+    border-radius: 10px;
+}
+.info{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 2rem;
+    margin-top: 25px;
+
+}
+#upload-text{
+    color: hsl(252, 6%, 83%);
+
+}
+.upload-actions {
+    display: flex; /* Align buttons horizontally */
+    justify-content: center; /* Center the buttons */
+    gap: 10px; /* Add spacing between buttons */
+    margin-top: 10px; /* Add spacing above the buttons */
+}
+
+.upload-actions button {
+    padding: 8px 15px; /* Add padding for better button size */
+    border: none; /* Remove default border */
+    border-radius: 5px; /* Add rounded corners */
+    background-color: hsl(252, 6%, 83%); /* Light purple background */
+    color: hsl(248, 70%, 10%); /* Dark text color */
+    cursor: pointer; /* Show pointer cursor on hover */
+    font-size: 14px; /* Set font size */
+    font-weight: bold; /* Make text bold */
+    transition: background-color 0.3s ease; /* Smooth hover effect */
+}
+
+.upload-actions button:hover {
+    background-color: hsl(252, 10%, 70%); /* Darker purple on hover */
+}
+
+.upload-actions button:focus {
+    outline: 2px solid hsl(252, 6%, 50%); /* Add focus outline for accessibility */
+}
+.upload-box img {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 10px;
+}
+
+
+
+.upload-box {
+    border: 2px dashed  hsl(252, 6%, 83%);
+    padding: 20px;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.error {
+    color: red;
+    font-size: 12px;
+    margin-top: 10px;
+    padding-right: 5px;
+}
+.error-message{
+    color: red;
+    font-size: 12px;
+    margin-top: -7px;
+    line-height: 1,3;
+}
+
+input {
+    display: block;
+    border-radius: 10px;
+    width: 100%;
+    margin: 15px auto;
+    padding: 15px;
+    background-color:hsl(245, 15%, 58%);
+}
+::placeholder{
+    color:  hsl(252, 6%, 83%);
+}
+
+button {
+    background: orangered;
+    color: hsl(248, 70%, 10%);
+    border: none;
+    padding: 15px;
+    width: 100%;
+    border-radius: 10px;
+    cursor: pointer;
+}
+button:hover, button:focus {
+    background-color: darkorange;
+    outline: 2px solid orangered;
+}
+input:focus, .upload-box:focus {
+    outline: 2px solid hsl(252, 6%, 83%);
+    box-shadow: 0 0 5px hsl(252, 6%, 83%);
+}
+
+.upload-box:hover {
+    background-color: rgba(255, 165, 0, 0.1);
+    cursor: pointer;
+}
+.ticket-container {
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+#ticketName {
+    font-size: 24px;
+    font-weight: bold;
+    background: linear-gradient(to right, hsl(7, 86%, 67%), hsl(0, 0%, 100%));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+    
+}
+.h2-text{
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    width: 62%;
+    line-height: 1.5;
+    margin-top: 30px;
+    margin-inline: auto;
+}
+#ticketEmail{
+    color:  hsl(7, 71%, 60%);
+}
+.p-text{
+    color:  hsl(252, 6%, 83%);
+    margin-bottom: 20px;
+    width: 60%;
+    margin-inline: auto;
+    line-height: 1.3;
+}
+
+.ticket {
+    background: url('assets/images/pattern-ticket.svg') no-repeat center center;
+    background-size: 100% 100%; /* Ensures the image stretches to fit the element */
+    color: white;
+    padding: 30px; /* Increased padding for better spacing */
+    border-radius: 15px;
+    width: 500px; /* Increased width */
+    height: 250px; /* Added height to maintain shape */
+    margin-top: 40px;
+    text-align: left;
+    margin-inline: auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Optional: Add shadow for better visibility */
+}
+.logo-mark{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 20px;    
+}
+
+.ticket-header h2 {
+    font-size: 25px;
+    line-height: 1.5;
+   
+}
+
+.ticket-header p {
+    font-size: 16px;
+    color: hsl(245, 15%, 58%);
+    
+}
+
+.ticket-body {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-top: 75px;
+}
+
+.ticket-body img {
+    width: 70px;
+    height: 70px;
+    border-radius: 15px;
+    border: 2px solid hsl(252, 6%, 83%);
+}
+
+#ticketFullName{
+    font-size: 25px;
+    line-height: 1.5;
+
+}
+#ticketGithub{
+    color: hsl(245, 15%, 58%) ;
+    font-size: 16px;
+}
+.ticket-number {
+    writing-mode: vertical-rl; /* Makes the text vertical */
+    text-orientation: sideways; /* Ensures the text is upright */
+    font-size: 20px;
+    color: hsl(245, 15%, 58%);
+    position: absolute; /* Position it relative to the ticket */
+    right: 550px; /* Adjust the position to align with the dotted line */
+    top: 57%; /* Center it vertically */
+    transform: translateY(-50%); /* Adjust for perfect centering */
+}
+
