@@ -234,14 +234,5 @@ input:focus, .upload-box:focus {
     color: hsl(245, 15%, 58%) ;
     font-size: 16px;
 }
-.ticket-number {
-    writing-mode: vertical-rl; /* Makes the text vertical */
-    text-orientation: sideways; /* Ensures the text is upright */
-    font-size: 20px;
-    color: hsl(245, 15%, 58%);
-    position: absolute; /* Position it relative to the ticket */
-    right: 550px; /* Adjust the position to align with the dotted line */
-    top: 57%; /* Center it vertically */
-    transform: translateY(-50%); /* Adjust for perfect centering */
-}
+
 
